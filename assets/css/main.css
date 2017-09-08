@@ -18,7 +18,7 @@
 	}
 
 	
-	img
+	.shadow
 	{
 		margin-top: 2%;
 		height: 300px;
@@ -34,7 +34,19 @@ width: 300px;
 height: 300px;
 }
 
+.shadow_icon{
+	height: 150px;
+	width: 150px;
+	padding: 15%;
+}
 
+
+
+.shadow_icon:hover{
+	height: 152px;
+	width: 152px;
+	padding: 15%;
+}
 @font-face {
     font-family: 'pacificoregular';
     src: url('pacifico-regular-webfont.woff2') format('woff2'),
