@@ -1,0 +1,210 @@
+
+DevanshManu
+ 
+
+mailto:devanshmanu@gmail.com devanshmanu@gmail.com  +91-9822003456
+
+
+
+Education 
+
+IIIT Hyderabad
+B.Tech in Computer Science and MS in Exact Humanities
+Expected July 2020
+
+
+
+
+
+
+
+
+
+Links 
+LinkedIn://https://www.linkedin.com/in/devanshmanudevanshmanu 
+
+Github://https://github.com/devanshmanudevanshmanu 
+
+Facebook://https://facebook.com/devanshmanudevanshmanu 
+
+YouTube://https://www.youtube.com/user/devanshpianodevanshpiano 
+
+
+
+
+
+
+
+Courses
+
+
+Undergraduate
+Data Structures and Algorithms 
+
+Artificial Intelligence
+
+Digital Logic and Processors
+
+Databases 
+
+Computer Graphics 
+
+Computer Networks 
+
+Confluence of Humanities and CS 
+
+Ontology
+
+Natural Language Processing*
+
+Database Systems*
+
+Operating Systems* 
+
+Human Computer Interaction *
+
+
+
+
+
+
+
+
+
+
+Skills
+
+Python  C 
+ 
+R  Shell Scripting 
+
+HTML  CSS  JavaScript 
+
+Web2Py  MySQL 
+
+Lucene  BaseX  Neo4j  OpenGL3 
+
+
+
+
+
+
+
+Awards
+Prathibha Scholarship, Aditya Birla Group 
+
+South Asian Finalist, Horlicks Wizkids 
+
+Student of the Year, GGIS 
+
+Kaladeep Scholarship, GGIS
+
+
+Positions
+Teaching Assistant for IT Workshop-I
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Experience
+
+Lumata Digital
+ Data Analytics Intern
+June 2017 - July 2017  Noida, India
+ 
+Worked on Twitter Data Extraction and n-gram Sentiment Analysis on the text and emoticons on search text based on hashtag or username.
+
+
+
+Authbase
+ Frontend Development Intern 
+Aug 2016 - Dec 2016  Hyderabad, India
+
+Worked on designing and developing the Frontend for a Vulnerability Search engine and an Admin Dashboard for Authbase, a NASSCOM 10K Startup.
+
+
+
+
+
+
+
+
+Projects
+
+Mini Shell
+ C
+August 2017 - Ongoing
+Developing a mini UNIX Shell which would support UNIX commands runs background processes.
+
+
+Bloxorz
+ OpenGL3
+April 2017
+Developed an OpenGL3D counterpart of the Miniclip game Bloxorz.
+
+
+File Transfer Protcol
+ Python
+April 2017
+Developed an Application Level program to keep two separate directories synced, similar to Dropbox, using sockets.
+
+
+Proxy Server
+ Python
+April 2017
+Developed a python based HTTP-Proxy Server capable of handling requests between multiple clients and servers
+
+
+Ultimate 4x4 Tic-Tac-Toe
+ Python
+April 2017
+Developed a terminal based ultimate 4X4 tic-tac-toe Bot using minimax algorithm and Alpha-beta Proning.
+
+
+Tetris
+ Python
+September 2016
+Developed a command-line tetris game based on Python.
+
+
+
+
+
+
+
+
+
+
+
+
+Co - Curricular
+
+
+2017 	&Apex Member    &IIIT-H
+
+2016     &Core Team  &Felicity, IIIT 
+
+2016    &Cultural Representative   &IIIT-H
+
+2016   &Constitution Drafting Commitee  &IIIT-H
+
+2015     &Core Team  &Felicity, IIIT 
+
+2015   &Talent Scout   &25Under25, Campus Diaries
+
+2012   &Star Correspondent   &NIE, Times of India
+
+
+
+
+ 

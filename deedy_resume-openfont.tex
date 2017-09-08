@@ -1,0 +1,257 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     7/9/17
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Devansh Manu
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Devansh}{Manu}
+{ 
+%\urlstyle{same}\url{http://bit.ly/devanshcv} \\
+\href{mailto:devanshmanu@gmail.com}{devanshmanu@gmail.com} | +91-9822003456\\
+\vspace{0.5cm}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{1cm}
+\section{Education} 
+
+\subsection{IIIT Hyderabad}
+\descript{B.Tech in Computer Science and MS in Exact Humanities}
+\location{Expected July 2020}
+
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+LinkedIn://\href{https://www.linkedin.com/in/devanshmanu}{\custombold{devanshmanu}} \\
+Github://\href{https://github.com/devanshmanu}{\custombold{devanshmanu}} \\
+Facebook://\href{https://facebook.com/devanshmanu}{\custombold{devanshmanu}} \\
+YouTube://\href{https://www.youtube.com/user/devanshpiano}{\custombold{devanshpiano}} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Courses}
+
+
+\subsection{Undergraduate}
+Data Structures and Algorithms \\
+Artificial Intelligence\\
+Digital Logic and Processors\\
+Databases \\
+Computer Graphics \\
+Computer Networks \\
+Confluence of Humanities and CS \\
+Ontology\\
+Natural Language Processing*\\
+Database Systems*\\
+Operating Systems* \\
+Human Computer Interaction *\\
+
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{}
+\subsection{Skills}
+%\subsection{Programming}
+Python \textbullet{} C \\ 
+R \textbullet{} Shell Scripting \\
+HTML \textbullet{} CSS \textbullet{} JavaScript \\
+Web2Py \textbullet{} MySQL \\
+Lucene \textbullet{} BaseX \textbullet{} Neo4j \textbullet{} OpenGL3 
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{}
+\subsection{Awards}
+Prathibha Scholarship, Aditya Birla Group \\
+South Asian Finalist, Horlicks Wizkids \\
+Student of the Year, GGIS \\
+Kaladeep Scholarship, GGIS
+\sectionsep
+
+\subsection{Positions}
+\textbf{Teaching Assistant} for IT Workshop-I
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{1cm}
+\section{Experience}
+
+\runsubsection{Lumata Digital}
+\descript{| Data Analytics Intern}
+\location{June 2017 - July 2017 | Noida, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item Worked on Twitter Data Extraction and n-gram Sentiment Analysis on the text and emoticons on search text based on hashtag or username.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Authbase}
+\descript{| Frontend Development Intern }
+\location{Aug 2016 - Dec 2016 | Hyderabad, India}
+\begin{tightemize}
+\item Worked on designing and developing the Frontend for a Vulnerability Search engine and an Admin Dashboard for Authbase, a NASSCOM 10K Startup.\end{tightemize}
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Mini Shell}
+\descript{| C}
+\location{August 2017 - Ongoing}
+Developing a mini UNIX Shell which would support UNIX commands runs background processes.
+\sectionsep
+
+\runsubsection{Bloxorz}
+\descript{| OpenGL3}
+\location{April 2017}
+Developed an OpenGL3D counterpart of the Miniclip game Bloxorz.
+\sectionsep
+
+\runsubsection{File Transfer Protcol}
+\descript{| Python}
+\location{April 2017}
+Developed an Application Level program to keep two separate directories synced, similar to Dropbox, using sockets.
+\sectionsep
+
+\runsubsection{Proxy Server}
+\descript{| Python}
+\location{April 2017}
+Developed a python based HTTP-Proxy Server capable of handling requests between multiple clients and servers
+\sectionsep
+
+\runsubsection{Ultimate 4x4 Tic-Tac-Toe}
+\descript{| Python}
+\location{April 2017}
+Developed a terminal based ultimate 4X4 tic-tac-toe Bot using minimax algorithm and Alpha-beta Proning.
+\sectionsep
+
+\runsubsection{Tetris}
+\descript{| Python}
+\location{September 2016}
+Developed a command-line tetris game based on Python.
+\sectionsep
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{}
+\subsection{Co - Curricular}
+
+\begin{tabular}{rll}
+2017 	&Apex Member    &IIIT-H\\
+2016     &Core Team  &Felicity, IIIT \\
+2016    &Cultural Representative   &IIIT-H\\
+2016   &Constitution Drafting Commitee  &IIIT-H\\
+2015     &Core Team  &Felicity, IIIT \\
+2015   &Talent Scout   &25Under25, Campus Diaries\\
+2012   &Star Correspondent   &NIE, Times of India\\
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}
