@@ -17,12 +17,12 @@
 		vertical-align: baseline;
 	}
 
-	
+	.name{font-size: 200%}
 	.shadow
 	{
-		margin-top: 2%;
-		height: 300px;
-		width: 300px;
+		margin-top: 5%;
+		height: 20%;
+		width: 20%;
 		border-radius: 50%;
 
 	}
@@ -35,18 +35,19 @@ height: 300px;
 }
 
 .shadow_icon{
-	height: 150px;
-	width: 150px;
-	padding: 15%;
+	height: 140%;
+	width: 140%;
+	padding: 25%;
 }
-
 
 
 .shadow_icon:hover{
-	height: 152px;
-	width: 152px;
-	padding: 15%;
+	height: 135%;
+	width: 135%;
+	padding: 25%;
 }
+
+
 @font-face {
     font-family: 'pacificoregular';
     src: url('pacifico-regular-webfont.woff2') format('woff2'),
@@ -55,6 +56,27 @@ height: 300px;
     font-style: normal;
 
 }
+
+
+
+
+@media (max-width: 693px) {
+  .shadow_icon {
+      display:inline;
+      height: 115%;
+	width: 115%;
+	padding: 15%;
+  }
+
+  .shadow{
+  	height: 40%;
+  	width: 40%;
+  	margin-top: 8%;
+  }
+}
+
+.shadow_icon li {display:inline-block;text-align:left;}
+
 
 
 
@@ -103,7 +125,7 @@ height: 300px;
 	}
 
 	body {
-		-ms-overflow-style: scrollbar;
+		-ms-overflow-style: scroll;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -116,18 +138,10 @@ height: 300px;
 
 	html, body {
 		height: 100%;
-		overflow-x: hidden;
 		width: 100%;
 	}
 
-		@media screen and (max-height: 640px) {
-
-			html, body {
-				height: auto;
-				min-height: 100%;
-			}
-
-		}
+		
 
 	body {
 		display: -moz-flex;
@@ -487,7 +501,7 @@ height: 300px;
 	}
 
 	pre {
-		-webkit-overflow-scrolling: touch;
+		-webkit-overflow-scrolling: scroll;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
@@ -872,23 +886,16 @@ height: 300px;
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
 	}
 
-		ul li {
-			padding-left: 0.5em;
-		}
 
 		ul.icons {
 			cursor: default;
 			list-style: none;
-			padding-left: 0;
 		}
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 1em 0 0;
 			}
 
 				ul.icons li:last-child {
@@ -1006,16 +1013,7 @@ height: 300px;
 
 		}
 
-		@media screen and (max-height: 640px) {
-
-			#footer {
-				bottom: auto;
-				left: auto;
-				margin: 1em 0 0 0;
-				position: relative;
-			}
-
-		}
+		
 
 
 	#main {
