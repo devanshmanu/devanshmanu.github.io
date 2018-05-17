@@ -60,7 +60,7 @@ height: 300px;
 
 
 
-@media (max-width: 693px) {
+@media (max-width: 768) {
   .shadow_icon {
       display:inline;
       height: 115%;
