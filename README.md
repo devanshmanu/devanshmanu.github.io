@@ -1,18 +1,17 @@
 # devanshmanu.github.io
 
-Landing redirect for my music. Live at: https://devanshmanu.github.io/
+Landing page → https://devanshmanu.github.io/
+Photo-background page with two buttons:
+- Stream my single → https://ffm.to/kyatubhi
+- Follow me on Instagram → https://instagram.com/devanshmanu
 
-Right now it redirects to my smart link (pre-save / stream):
-**https://ffm.to/kyatubhi**
+## Photos
+- hero-wide.jpg — the Jubilee-line photo (used for phone + wide)
+- hero-wide.jpg — the Jubilee-line shot, shown on wide screens
+Swap either file (keep the same names) to change the photo. No code edit needed.
 
-## How to repoint it later
-Edit the URL in **two places** in `index.html`:
-1. `<meta http-equiv="refresh" content="0; url=...">`
-2. `window.location.replace("...")`
-(Also update `404.html` if you want mistyped paths to follow.)
-Commit → the printed QR keeps working, new destination applies.
+## Change a link
+Edit the href in index.html (the ffm.to line or the instagram line), commit.
 
 ## Files
-- `index.html` — the redirect page (edit this to repoint)
-- `404.html` — catches any other path, redirects too
-- `.nojekyll` — serve files as-is on GitHub Pages
+index.html · hero.jpg · hero-wide.jpg · 404.html · .nojekyll

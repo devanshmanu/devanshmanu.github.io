@@ -3,42 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kya Tu Bhi — Devansh Manu</title>
-
-  <!-- 👇 CHANGE ONLY THIS URL to repoint the QR / link anywhere, anytime -->
-  <meta http-equiv="refresh" content="0; url=https://ffm.to/kyatubhi">
-  <link rel="canonical" href="https://ffm.to/kyatubhi">
+  <title>Devansh Manu — Kya Tu Bhi</title>
+  <meta name="description" content="Kya Tu Bhi — the debut single from Devansh Manu. Stream now.">
+  <meta property="og:title" content="Kya Tu Bhi — Devansh Manu">
+  <meta property="og:description" content="My debut single. Stream it now.">
+  <meta property="og:image" content="hero-wide.jpg">
+  <meta property="og:type" content="music.song">
 
   <style>
-    html, body {
-      margin: 0;
-      height: 100%;
-      background: #b9a7e6; /* lilac — matches the cover */
-      color: #2e2a46;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+    :root{ --bg:#17110b; }
+    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;margin:0;padding:0;}
+    html,body{height:100%;}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+      color:#fff;background:var(--bg);
+      min-height:100dvh;display:flex;flex-direction:column;
     }
-    .wrap { padding: 24px; }
-    .flower { font-size: 44px; margin-bottom: 12px; }
-    h1 { font-size: 22px; font-weight: 700; margin: 0 0 6px; }
-    p  { font-size: 15px; opacity: 0.75; margin: 0 0 18px; }
-    a  { color: #2e2a46; font-weight: 600; text-decoration: underline; }
+
+    /* PHONE: full horizontal photo as a band across the top, fading into dark */
+    .band-wrap{position:relative;flex:0 0 auto;}
+    .band{display:block;width:100%;height:auto;}
+    .band-wrap::after{
+      content:"";position:absolute;left:0;right:0;bottom:-1px;height:90px;
+      background:linear-gradient(to bottom,rgba(23,17,11,0) 0%,var(--bg) 100%);
+    }
+
+    .content{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;
+      padding:14px 22px 40px;text-align:center;}
+    .inner{width:100%;max-width:440px;margin:0 auto;}
+    h1{font-size:29px;font-weight:700;letter-spacing:.3px;margin-bottom:3px;}
+    .sub{font-size:15px;opacity:.8;margin-bottom:26px;}
+
+    .btn{display:flex;align-items:center;justify-content:center;gap:10px;
+      width:100%;padding:16px 18px;margin:11px 0;border-radius:14px;
+      font-size:16px;font-weight:600;text-decoration:none;cursor:pointer;transition:transform .06s ease;}
+    .btn:active{transform:scale(.98);}
+    .btn svg{width:20px;height:20px;flex:0 0 auto;}
+    .btn-primary{background:#fff;color:#17110b;box-shadow:0 8px 24px rgba(0,0,0,.4);}
+    .btn-secondary{background:rgba(255,255,255,.12);color:#fff;border:1.5px solid rgba(255,255,255,.5);}
+    .foot{margin-top:20px;font-size:13px;opacity:.6;}
+    .foot a{color:#fff;text-decoration:underline;}
+
+    /* WIDE: full-bleed photo background, content in a gradient panel at the bottom */
+    @media (min-width:820px){
+      .band-wrap{display:none;}
+      body{background:url("hero-wide.jpg") center 35%/cover no-repeat;justify-content:flex-end;}
+      .content{flex:0 0 auto;padding:130px 22px 60px;
+        background:linear-gradient(to top,rgba(23,17,11,.92) 0%,rgba(23,17,11,.72) 50%,rgba(23,17,11,0) 100%);}
+    }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="flower">🌻</div>
-    <h1>Kya Tu Bhi</h1>
-    <p>taking you to the song…</p>
-    <a href="https://ffm.to/kyatubhi">tap here if it doesn't open</a>
+  <div class="band-wrap">
+    <img class="band" src="hero-wide.jpg" alt="Devansh Manu">
   </div>
 
-  <!-- Instant redirect (runs before the meta-refresh, keeps the back button clean) -->
-  <script>
-    window.location.replace("https://ffm.to/kyatubhi");
-  </script>
+  <section class="content">
+    <div class="inner">
+      <h1>Devansh Manu</h1>
+      <p class="sub">🌻 Kya Tu Bhi · debut single</p>
+
+      <a class="btn btn-primary" href="https://ffm.to/kyatubhi" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+        Stream my single
+      </a>
+
+      <a class="btn btn-secondary" href="https://www.instagram.com/devanshmanu" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg>
+        Follow me on Instagram
+      </a>
+
+      <p class="foot"><a href="https://ffm.to/kyatubhi">all platforms →</a></p>
+    </div>
+  </section>
 </body>
 </html>
